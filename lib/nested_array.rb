@@ -22,9 +22,9 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  ORGANIC_PRODUCE.sort
-  CONVENTIONAL_PRODUCE.sort
-  [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  [ORGANIC_PRODUCE.sort
+  ,CONVENTIONAL_PRODUCE.sort]
+
 end
 
 def matrix_lookup(matrix, row, column)
